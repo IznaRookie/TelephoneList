@@ -9,7 +9,7 @@ public final class ContactSimpleDAO implements ContactDAO
 {
     private final List<Contact> contacts = new ArrayList<>();
 
-    // Прямо в конструкторе добавляем три контакта
+    // Изначально введенные контакты
     public ContactSimpleDAO() {
         addContact(new Contact("Андрей", "Соколов", "+7-911-890-7766", "sokolov@yandex.ru"));
         addContact(new Contact("Сергей", "Иванов", "+7-911-890-7755", "ivanov@google.com"));
